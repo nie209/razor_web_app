@@ -1,0 +1,14 @@
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.deps.json
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.runtimeconfig.json
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.runtimeconfig.dev.json
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.dll
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.pdb
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.csprojAssemblyReference.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.csproj.CoreCompileInputs.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.RazorAssemblyInfo.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.RazorAssemblyInfo.cs
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.AssemblyInfoInputs.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.AssemblyInfo.cs
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.RazorTargetAssemblyInfo.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.dll
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.pdb
