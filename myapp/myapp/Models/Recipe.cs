@@ -21,6 +21,7 @@ namespace myapp.Models
         {
             get { return (Ingredients ?? string.Empty).Split(NewLine); }
         }
+        public int MyProperty { get; set; }
 
         #region Image
 

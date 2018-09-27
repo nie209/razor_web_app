@@ -12,3 +12,14 @@ F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\net
 F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.RazorTargetAssemblyInfo.cache
 F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.dll
 F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.pdb
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.Views.dll
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\bin\Debug\netcoreapp2.1\myapp.Views.pdb
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.TagHelpers.input.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.TagHelpers.output.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.RazorCoreGenerate.cache
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.RazorTargetAssemblyInfo.cs
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.Views.pdb
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.csproj.CopyComplete
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\AddEditRecipe.g.cshtml.cs
