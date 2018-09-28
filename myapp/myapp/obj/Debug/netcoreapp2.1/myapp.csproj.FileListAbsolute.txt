@@ -23,3 +23,4 @@ F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\net
 F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.Views.pdb
 F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\myapp.csproj.CopyComplete
 F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\AddEditRecipe.g.cshtml.cs
+F:\University\ASP.Net_core\razor_web_app\MyApplication\myapp\myapp\obj\Debug\netcoreapp2.1\Razor\Pages\Account\Login.g.cshtml.cs

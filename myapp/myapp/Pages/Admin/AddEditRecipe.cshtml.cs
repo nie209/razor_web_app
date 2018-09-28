@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -9,6 +10,7 @@ using myapp.Models;
 
 namespace myapp.Pages.Admin
 {
+    //[Authorize] // lock the page down 
     public class AddEditRecipeModel : PageModel
     {
         private readonly IRecipesService recipesService;
@@ -21,7 +23,7 @@ namespace myapp.Pages.Admin
         [BindProperty]
         public Recipe Recipe { get; set; }
         [BindProperty]
-        public IFormFile myImage { get; set; }
+        public IFormFile MyImage { get; set; }
 
 
         public AddEditRecipeModel(IRecipesService recipesService)
@@ -46,13 +48,13 @@ namespace myapp.Pages.Admin
             recipe.Description = Recipe.Description;
             recipe.Directions = Recipe.Directions;
             recipe.Ingredients = Recipe.Ingredients;
-            if(myImage != null)
+            if(MyImage != null)
             {
                 using(var stream = new System.IO.MemoryStream())
                 {
-                    await myImage.CopyToAsync(stream);
+                    await MyImage.CopyToAsync(stream);
                     recipe.Image = stream.ToArray();
-                    recipe.ImageContentType = myImage.ContentType;
+                    recipe.ImageContentType = MyImage.ContentType;
                 }
             }
             await recipesService.SaveAsync(recipe);
