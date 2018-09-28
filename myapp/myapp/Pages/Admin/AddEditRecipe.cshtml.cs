@@ -21,7 +21,7 @@ namespace myapp.Pages.Admin
         [BindProperty]
         public Recipe Recipe { get; set; }
         [BindProperty]
-        public IFormFile image { get; set; }
+        public IFormFile myImage { get; set; }
 
 
         public AddEditRecipeModel(IRecipesService recipesService)
@@ -31,26 +31,32 @@ namespace myapp.Pages.Admin
 
         public async Task OnGetAsync()
         {
+
             Recipe = await recipesService.FindAsync(ID.GetValueOrDefault()) ?? new Recipe();
         }
         public async Task<IActionResult> OnPostAsync()
         {
             var recipe = await recipesService.FindAsync(ID.GetValueOrDefault()) ?? new Recipe();
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+           
             recipe.Name = Recipe.Name;
             recipe.Description = Recipe.Description;
             recipe.Directions = Recipe.Directions;
             recipe.Ingredients = Recipe.Ingredients;
-            if(image != null)
+            if(myImage != null)
             {
                 using(var stream = new System.IO.MemoryStream())
                 {
-                    await image.CopyToAsync(stream);
+                    await myImage.CopyToAsync(stream);
                     recipe.Image = stream.ToArray();
-                    recipe.ImageContentType = image.ContentType;
+                    recipe.ImageContentType = myImage.ContentType;
                 }
             }
-            await recipesService.SaveAsync(Recipe);
-            return RedirectToPage("/Recipe", new { id=Recipe.Id });
+            await recipesService.SaveAsync(recipe);
+            return RedirectToPage("/Recipe", new { id=recipe.Id });
         }
         public async Task<IActionResult> OnPostDeleteAsync()
         {

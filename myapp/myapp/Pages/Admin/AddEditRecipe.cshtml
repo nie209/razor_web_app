@@ -4,33 +4,46 @@
     ViewData["Title"] = Model.IsNewRecipe ? "New Recipe" : "Edit Recipe";
 }
 
+@if (!ModelState.IsValid)
+{
+    <div class="col-md-offset-2 col-md-10">
+        <h3 class="text-danger">Vaildation Errors</h3>
+        <div asp-validation-summary="All"></div>
+        <hr />
+    </div>
+}
 <form method="post" class="form-horizontal" enctype="multipart/form-data">
     <div class="form-group">
         <label asp-for="Recipe.Name" class="col-md-2 control-label"></label>
         <div class="col-md-offset-2 col-md-10">
+            <span asp-validation-for="Recipe.Name"></span>
             <input asp-for="Recipe.Name" class="form-control" />
         </div>
     </div>
     <div class="form-group">
         <label asp-for="Recipe.Description" class="col-md-2 control-label"></label>
         <div class="col-md-offset-2 col-md-10">
+            <span asp-validation-for="Recipe.Description"></span>
             <textarea rows="3" asp-for="Recipe.Description" class="form-control"></textarea>
         </div>
+        
     </div>
     <div class="form-group">
         <label asp-for="Recipe.Ingredients" class="col-md-2 control-label"></label>
         <div class="col-md-offset-2 col-md-10">
+            <span asp-validation-for="Recipe.Ingredients"></span>
             <textarea rows="5" asp-for="Recipe.Ingredients" class="form-control"></textarea>
         </div>
     </div>
     <div class="form-group">
         <label asp-for="Recipe.Directions" class="col-md-2 control-label"></label>
         <div class="col-md-offset-2 col-md-10">
+            <span asp-validation-for="Recipe.Directions"></span>
             <textarea rows="5" asp-for="Recipe.Directions" class="form-control"></textarea>
         </div>
     </div>
-    <label asp-for="image" class="col-md-2 control-label" ></label>
-    <input type="file" asp-for="image"/>
+    <label asp-for="myImage" class="col-md-2 control-label" ></label>
+    <input type="file" asp-for="myImage"/>
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
